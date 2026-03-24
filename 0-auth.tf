@@ -21,8 +21,7 @@ terraform {
 # This tells Terraform how to connect to AWS
 provider "aws" {
   region  = "af-south-1"
-  profile = "default"
-
+ 
   # # Default tags are applied to all resources created by this provider
   # default_tags {
   #   tags = {
